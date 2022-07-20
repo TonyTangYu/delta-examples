@@ -1,0 +1,3773 @@
+srun: job 984471 queued and waiting for resources
+srun: job 984471 has been allocated resources
+memory budget: 10000000000
+================================
+Namespace(arch='resnet50', batch_size=128, budget=10000000000, data='/home/laizhiquan/dat01/newdataset/imagenet', dist_backend='nccl', dist_url='tcp://224.66.41.62:23456', epochs=90, evaluate=False, gpu=None, lr=0.1, momentum=0.9, multiprocessing_distributed=False, pretrained=False, print_freq=1, rank=-1, resume='', seed=None, start_epoch=0, use_dtr=True, weight_decay=0.0001, workers=4, world_size=-1)
+================================
+=> creating model 'resnet50'
+current memory is: 10019509248
+aps size: 126
+evict idx 0
+release aps offloaded: 0 onGPU 1
+decision is  1.5189e-05
+offload count 
+offload finished  
+current memory is: 10096602112
+aps size: 88
+evict idx 2
+release aps offloaded: 0 onGPU 1
+decision is  0.223858
+offload count 
+offload finished  
+current memory is: 10019574784
+aps size: 94
+evict idx 11
+release aps offloaded: 0 onGPU 1
+decision is  0.00120366
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10077041152
+aps size: 448
+evict idx 71
+release aps offloaded: 0 onGPU 1
+decision is  0.354911
+offload count 
+offload finished  
+current memory is: 10077053440
+aps size: 120
+evict idx 70
+release aps offloaded: 0 onGPU 1
+decision is  0.673425
+offload count 
+offload finished  
+current memory is: 10025689600
+aps size: 129
+evict idx 63
+release aps offloaded: 0 onGPU 1
+decision is  0.325738
+offload count 
+offload finished  
+current memory is: 10000069120
+aps size: 148
+evict idx 62
+release aps offloaded: 0 onGPU 1
+decision is  0.330582
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10056717824
+aps size: 509
+evict idx 70
+release aps offloaded: 0 onGPU 1
+decision is  0.439201
+offload count 
+offload finished  
+current memory is: 10056738304
+aps size: 117
+evict idx 69
+release aps offloaded: 0 onGPU 1
+decision is  0.594187
+offload count 
+offload finished  
+current memory is: 10056750592
+aps size: 123
+evict idx 62
+release aps offloaded: 0 onGPU 1
+decision is  0.302166
+offload count 
+offload finished  
+current memory is: 10031126016
+aps size: 140
+evict idx 61
+release aps offloaded: 0 onGPU 1
+decision is  0.307357
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10027616768
+aps size: 503
+evict idx 66
+release aps offloaded: 0 onGPU 1
+decision is  0.401663
+offload count 
+offload finished  
+current memory is: 10027633152
+aps size: 120
+evict idx 65
+release aps offloaded: 0 onGPU 1
+decision is  0.55665
+offload count 
+offload finished  
+current memory is: 10027653632
+aps size: 122
+evict idx 58
+release aps offloaded: 0 onGPU 1
+decision is  0.327343
+offload count 
+offload finished  
+current memory is: 10002004480
+aps size: 130
+evict idx 57
+release aps offloaded: 0 onGPU 1
+decision is  0.327918
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10001796608
+aps size: 507
+evict idx 65
+release aps offloaded: 0 onGPU 1
+decision is  0.552332
+offload count 
+offload finished  
+current memory is: 10001808896
+aps size: 112
+evict idx 64
+release aps offloaded: 0 onGPU 1
+decision is  0.726949
+offload count 
+offload finished  
+current memory is: 10001825280
+aps size: 125
+evict idx 57
+release aps offloaded: 0 onGPU 1
+decision is  0.254695
+offload count 
+offload finished  
+current memory is: 10027564544
+aps size: 129
+evict idx 56
+release aps offloaded: 0 onGPU 1
+decision is  0.277285
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10081554944
+aps size: 507
+evict idx 65
+release aps offloaded: 0 onGPU 1
+decision is  0.350719
+offload count 
+offload finished  
+current memory is: 10081567232
+aps size: 112
+evict idx 64
+release aps offloaded: 0 onGPU 1
+decision is  0.404925
+offload count 
+offload finished  
+current memory is: 10004513280
+aps size: 124
+evict idx 57
+release aps offloaded: 0 onGPU 1
+decision is  0.323179
+offload count 
+offload finished  
+current memory is: 10004546048
+aps size: 128
+evict idx 56
+release aps offloaded: 0 onGPU 1
+decision is  0.329907
+offload count 
+offload finished  
+current memory is: 10004612096
+aps size: 145
+evict idx 50
+release aps offloaded: 0 onGPU 1
+decision is  0.414372
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10055071232
+aps size: 497
+evict idx 64
+release aps offloaded: 0 onGPU 1
+decision is  0.400484
+offload count 
+offload finished  
+current memory is: 10055091712
+aps size: 111
+evict idx 63
+release aps offloaded: 0 onGPU 1
+decision is  0.622768
+offload count 
+offload finished  
+current memory is: 10055104000
+aps size: 117
+evict idx 56
+release aps offloaded: 0 onGPU 1
+decision is  0.268516
+offload count 
+offload finished  
+current memory is: 10003740160
+aps size: 126
+evict idx 55
+release aps offloaded: 0 onGPU 1
+decision is  0.299951
+offload count 
+offload finished  
+current memory is: 10029516800
+aps size: 146
+evict idx 49
+release aps offloaded: 0 onGPU 1
+decision is  0.533616
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10028395008
+aps size: 489
+evict idx 60
+release aps offloaded: 0 onGPU 1
+decision is  0.399966
+offload count 
+offload finished  
+current memory is: 10028411392
+aps size: 114
+evict idx 59
+release aps offloaded: 0 onGPU 1
+decision is  0.518711
+offload count 
+offload finished  
+current memory is: 10028431872
+aps size: 116
+evict idx 52
+release aps offloaded: 0 onGPU 1
+decision is  0.215547
+offload count 
+offload finished  
+current memory is: 10028444160
+aps size: 122
+evict idx 51
+release aps offloaded: 0 onGPU 1
+decision is  0.21489
+offload count 
+offload finished  
+current memory is: 10002819584
+aps size: 139
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.411234
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10005261824
+aps size: 492
+evict idx 59
+release aps offloaded: 0 onGPU 1
+decision is  0.493213
+offload count 
+offload finished  
+current memory is: 10005274112
+aps size: 106
+evict idx 58
+release aps offloaded: 0 onGPU 1
+decision is  0.61015
+offload count 
+offload finished  
+current memory is: 10005290496
+aps size: 119
+evict idx 51
+release aps offloaded: 0 onGPU 1
+decision is  0.339747
+offload count 
+offload finished  
+current memory is: 10005310976
+aps size: 121
+evict idx 50
+release aps offloaded: 0 onGPU 1
+decision is  0.343064
+offload count 
+offload finished  
+current memory is: 10031066624
+aps size: 138
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.555005
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10082071040
+aps size: 492
+evict idx 59
+release aps offloaded: 0 onGPU 1
+decision is  0.420272
+offload count 
+offload finished  
+current memory is: 10082083328
+aps size: 106
+evict idx 58
+release aps offloaded: 0 onGPU 1
+decision is  0.666641
+offload count 
+offload finished  
+current memory is: 10005029376
+aps size: 118
+evict idx 51
+release aps offloaded: 0 onGPU 1
+decision is  0.32706
+offload count 
+offload finished  
+current memory is: 10082120192
+aps size: 122
+evict idx 50
+release aps offloaded: 0 onGPU 1
+decision is  0.325536
+offload count 
+offload finished  
+current memory is: 10005090816
+aps size: 128
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.515994
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10055648768
+aps size: 488
+evict idx 55
+release aps offloaded: 0 onGPU 1
+decision is  0.566832
+offload count 
+offload finished  
+current memory is: 10055673344
+aps size: 110
+evict idx 54
+release aps offloaded: 0 onGPU 1
+decision is  0.757932
+offload count 
+offload finished  
+current memory is: 10055685632
+aps size: 111
+evict idx 47
+release aps offloaded: 0 onGPU 1
+decision is  0.201741
+offload count 
+offload finished  
+current memory is: 10055702016
+aps size: 124
+evict idx 46
+release aps offloaded: 0 onGPU 1
+decision is  0.185689
+offload count 
+offload finished  
+current memory is: 10030044672
+aps size: 127
+evict idx 40
+release aps offloaded: 0 onGPU 1
+decision is  0.495527
+offload count 
+offload finished  
+current memory is: 10030110720
+aps size: 155
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.128369
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10033105408
+aps size: 468
+evict idx 54
+release aps offloaded: 0 onGPU 1
+decision is  0.445579
+offload count 
+offload finished  
+current memory is: 10033121792
+aps size: 109
+evict idx 53
+release aps offloaded: 0 onGPU 1
+decision is  0.692296
+offload count 
+offload finished  
+current memory is: 10033142272
+aps size: 110
+evict idx 46
+release aps offloaded: 0 onGPU 1
+decision is  0.330811
+offload count 
+offload finished  
+current memory is: 10033154560
+aps size: 116
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.331008
+offload count 
+offload finished  
+current memory is: 10007484928
+aps size: 129
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.537079
+offload count 
+offload finished  
+current memory is: 10007567360
+aps size: 143
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.175775
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10005245440
+aps size: 477
+evict idx 53
+release aps offloaded: 0 onGPU 1
+decision is  0.502166
+offload count 
+offload finished  
+current memory is: 10005265920
+aps size: 101
+evict idx 52
+release aps offloaded: 0 onGPU 1
+decision is  0.614859
+offload count 
+offload finished  
+current memory is: 10005282304
+aps size: 113
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.329613
+offload count 
+offload finished  
+current memory is: 10005302784
+aps size: 115
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.295303
+offload count 
+offload finished  
+current memory is: 10005315072
+aps size: 121
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.550606
+offload count 
+offload finished  
+current memory is: 10031078912
+aps size: 146
+evict idx 43
+release aps offloaded: 0 onGPU 1
+decision is  0.178295
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10081726976
+aps size: 477
+evict idx 53
+release aps offloaded: 0 onGPU 1
+decision is  0.125941
+offload count 
+offload finished  
+current memory is: 10081747456
+aps size: 101
+evict idx 52
+release aps offloaded: 0 onGPU 1
+decision is  0.512025
+offload count 
+offload finished  
+current memory is: 10004693504
+aps size: 112
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.321005
+offload count 
+offload finished  
+current memory is: 10081784320
+aps size: 116
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.30882
+offload count 
+offload finished  
+current memory is: 10081796608
+aps size: 121
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.527204
+offload count 
+offload finished  
+current memory is: 10004791808
+aps size: 137
+evict idx 43
+release aps offloaded: 0 onGPU 1
+decision is  0.172018
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10057414144
+aps size: 480
+evict idx 52
+release aps offloaded: 0 onGPU 1
+decision is  0.558519
+offload count 
+offload finished  
+current memory is: 10057434624
+aps size: 100
+evict idx 51
+release aps offloaded: 0 onGPU 1
+decision is  0.732542
+offload count 
+offload finished  
+current memory is: 10057446912
+aps size: 105
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.331921
+offload count 
+offload finished  
+current memory is: 10057463296
+aps size: 118
+evict idx 43
+release aps offloaded: 0 onGPU 1
+decision is  0.334531
+offload count 
+offload finished  
+current memory is: 10057483776
+aps size: 120
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.515865
+offload count 
+offload finished  
+current memory is: 10031834624
+aps size: 128
+evict idx 42
+release aps offloaded: 0 onGPU 1
+decision is  0.175309
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10032306688
+aps size: 484
+evict idx 51
+release aps offloaded: 0 onGPU 1
+decision is  0.460419
+offload count 
+offload finished  
+current memory is: 10032323072
+aps size: 91
+evict idx 50
+release aps offloaded: 0 onGPU 1
+decision is  0.678222
+offload count 
+offload finished  
+current memory is: 10032347648
+aps size: 109
+evict idx 43
+release aps offloaded: 0 onGPU 1
+decision is  0.328874
+offload count 
+offload finished  
+current memory is: 10032359936
+aps size: 110
+evict idx 42
+release aps offloaded: 0 onGPU 1
+decision is  0.329923
+offload count 
+offload finished  
+current memory is: 10032376320
+aps size: 123
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.551485
+offload count 
+offload finished  
+current memory is: 10006718976
+aps size: 126
+evict idx 41
+release aps offloaded: 0 onGPU 1
+decision is  0.173383
+offload count 
+offload finished  
+current memory is: 10006785024
+aps size: 154
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.424833
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10059240960
+aps size: 461
+evict idx 49
+release aps offloaded: 0 onGPU 1
+decision is  0.0219922
+offload count 
+offload finished  
+current memory is: 10007879168
+aps size: 92
+evict idx 48
+release aps offloaded: 0 onGPU 1
+decision is  0.439853
+offload count 
+offload finished  
+current memory is: 10007895552
+aps size: 108
+evict idx 41
+release aps offloaded: 0 onGPU 1
+decision is  0.334626
+offload count 
+offload finished  
+current memory is: 10007916032
+aps size: 109
+evict idx 40
+release aps offloaded: 0 onGPU 1
+decision is  0.337219
+offload count 
+offload finished  
+current memory is: 10007928320
+aps size: 115
+evict idx 34
+release aps offloaded: 0 onGPU 1
+decision is  0.56206
+offload count 
+offload finished  
+current memory is: 10033655296
+aps size: 129
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.181234
+offload count 
+offload finished  
+current memory is: 10033721344
+aps size: 143
+evict idx 28
+release aps offloaded: 0 onGPU 1
+decision is  0.540194
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10033877504
+aps size: 467
+evict idx 47
+release aps offloaded: 0 onGPU 1
+decision is  0.00630162
+offload count 
+offload finished  
+current memory is: 10085278208
+aps size: 94
+evict idx 46
+release aps offloaded: 0 onGPU 1
+decision is  0.0155047
+offload count 
+offload finished  
+current memory is: 10008224256
+aps size: 107
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.254073
+offload count 
+offload finished  
+current memory is: 10085315072
+aps size: 110
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.265038
+offload count 
+offload finished  
+current memory is: 10085327360
+aps size: 115
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.55464
+offload count 
+offload finished  
+current memory is: 10033963520
+aps size: 124
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.156578
+offload count 
+offload finished  
+current memory is: 10008343040
+aps size: 143
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.548411
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10109703680
+aps size: 467
+evict idx 47
+release aps offloaded: 0 onGPU 1
+decision is  0.0136624
+offload count 
+offload finished  
+current memory is: 10058335744
+aps size: 93
+evict idx 46
+release aps offloaded: 0 onGPU 1
+decision is  0.422029
+offload count 
+offload finished  
+current memory is: 10058356224
+aps size: 100
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.297091
+offload count 
+offload finished  
+current memory is: 10058372608
+aps size: 112
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.299117
+offload count 
+offload finished  
+current memory is: 10058393088
+aps size: 114
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.523466
+offload count 
+offload finished  
+current memory is: 10058405376
+aps size: 120
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.16125
+offload count 
+offload finished  
+current memory is: 10032780800
+aps size: 137
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.547422
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10188478976
+aps size: 471
+evict idx 47
+release aps offloaded: 0 onGPU 1
+decision is  0.480372
+offload count 
+offload finished  
+current memory is: 10034350592
+aps size: 92
+evict idx 46
+release aps offloaded: 0 onGPU 1
+decision is  0.659178
+offload count 
+offload finished  
+current memory is: 10034371072
+aps size: 99
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.329637
+offload count 
+offload finished  
+current memory is: 10034383360
+aps size: 104
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.331375
+offload count 
+offload finished  
+current memory is: 10034399744
+aps size: 117
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.541877
+offload count 
+offload finished  
+current memory is: 10034420224
+aps size: 119
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.176233
+offload count 
+offload finished  
+current memory is: 10008771072
+aps size: 127
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.521091
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10063437312
+aps size: 475
+evict idx 46
+release aps offloaded: 0 onGPU 1
+decision is  0.0698254
+offload count 
+offload finished  
+current memory is: 10012061184
+aps size: 91
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.614986
+offload count 
+offload finished  
+current memory is: 10012077568
+aps size: 90
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.294959
+offload count 
+offload finished  
+current memory is: 10012102144
+aps size: 108
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.294282
+offload count 
+offload finished  
+current memory is: 10012114432
+aps size: 109
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.401344
+offload count 
+offload finished  
+current memory is: 10012130816
+aps size: 122
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.165956
+offload count 
+offload finished  
+current memory is: 10037870080
+aps size: 126
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.498431
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10138411520
+aps size: 475
+evict idx 46
+release aps offloaded: 0 onGPU 1
+decision is  0.0208623
+offload count 
+offload finished  
+current memory is: 10035653120
+aps size: 87
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.522258
+offload count 
+offload finished  
+current memory is: 10087051776
+aps size: 92
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.29819
+offload count 
+offload finished  
+current memory is: 10087076352
+aps size: 108
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.0335769
+offload count 
+offload finished  
+current memory is: 10087088640
+aps size: 109
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.512355
+offload count 
+offload finished  
+current memory is: 10010034688
+aps size: 121
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.164215
+offload count 
+offload finished  
+current memory is: 10010067456
+aps size: 125
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.553759
+offload count 
+offload finished  
+current memory is: 10010133504
+aps size: 142
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.223668
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10008385024
+aps size: 465
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.00733225
+offload count 
+offload finished  
+current memory is: 10008389120
+aps size: 83
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.0105403
+offload count 
+offload finished  
+current memory is: 10059789824
+aps size: 93
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.330269
+offload count 
+offload finished  
+current memory is: 10059806208
+aps size: 107
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.315187
+offload count 
+offload finished  
+current memory is: 10059826688
+aps size: 108
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.55433
+offload count 
+offload finished  
+current memory is: 10059838976
+aps size: 114
+evict idx 35
+release aps offloaded: 0 onGPU 1
+decision is  0.178612
+offload count 
+offload finished  
+current memory is: 10008475136
+aps size: 123
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.546796
+offload count 
+offload finished  
+current memory is: 10034251776
+aps size: 143
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.226835
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10091158016
+aps size: 465
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.00717384
+offload count 
+offload finished  
+current memory is: 10091162112
+aps size: 83
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.0142541
+offload count 
+offload finished  
+current memory is: 10039794176
+aps size: 92
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.298264
+offload count 
+offload finished  
+current memory is: 10039814656
+aps size: 99
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.307011
+offload count 
+offload finished  
+current memory is: 10039831040
+aps size: 111
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.498511
+offload count 
+offload finished  
+current memory is: 10039851520
+aps size: 113
+evict idx 35
+release aps offloaded: 0 onGPU 1
+decision is  0.164464
+offload count 
+offload finished  
+current memory is: 10039863808
+aps size: 119
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.463689
+offload count 
+offload finished  
+current memory is: 10014239232
+aps size: 136
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.191527
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10012777984
+aps size: 468
+evict idx 45
+release aps offloaded: 0 onGPU 1
+decision is  0.00808194
+offload count 
+offload finished  
+current memory is: 10166922752
+aps size: 84
+evict idx 44
+release aps offloaded: 0 onGPU 1
+decision is  0.00810798
+offload count 
+offload finished  
+current memory is: 10012794368
+aps size: 91
+evict idx 37
+release aps offloaded: 0 onGPU 1
+decision is  0.324152
+offload count 
+offload finished  
+current memory is: 10012814848
+aps size: 98
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.293909
+offload count 
+offload finished  
+current memory is: 10012827136
+aps size: 103
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.513043
+offload count 
+offload finished  
+current memory is: 10012843520
+aps size: 116
+evict idx 35
+release aps offloaded: 0 onGPU 1
+decision is  0.168568
+offload count 
+offload finished  
+current memory is: 10012864000
+aps size: 118
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.470115
+offload count 
+offload finished  
+current memory is: 10038619648
+aps size: 135
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.192912
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10038860288
+aps size: 461
+evict idx 41
+release aps offloaded: 0 onGPU 1
+decision is  0.0106474
+offload count 
+offload finished  
+current memory is: 10038866432
+aps size: 86
+evict idx 40
+release aps offloaded: 0 onGPU 1
+decision is  0.0157654
+offload count 
+offload finished  
+current memory is: 10090258944
+aps size: 91
+evict idx 33
+release aps offloaded: 0 onGPU 1
+decision is  0.323901
+offload count 
+offload finished  
+current memory is: 10090279424
+aps size: 98
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.323667
+offload count 
+offload finished  
+current memory is: 10090291712
+aps size: 103
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.495006
+offload count 
+offload finished  
+current memory is: 10013237760
+aps size: 115
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.161895
+offload count 
+offload finished  
+current memory is: 10090328576
+aps size: 119
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.430228
+offload count 
+offload finished  
+current memory is: 10013299200
+aps size: 125
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.210659
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10115603968
+aps size: 466
+evict idx 41
+release aps offloaded: 0 onGPU 1
+decision is  0.0198257
+offload count 
+offload finished  
+current memory is: 10115610112
+aps size: 86
+evict idx 40
+release aps offloaded: 0 onGPU 1
+decision is  0.559575
+offload count 
+offload finished  
+current memory is: 10012851712
+aps size: 86
+evict idx 33
+release aps offloaded: 0 onGPU 1
+decision is  0.34078
+offload count 
+offload finished  
+current memory is: 10064250368
+aps size: 91
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.344675
+offload count 
+offload finished  
+current memory is: 10064274944
+aps size: 107
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.5315
+offload count 
+offload finished  
+current memory is: 10064287232
+aps size: 108
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.181142
+offload count 
+offload finished  
+current memory is: 10064303616
+aps size: 121
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.545344
+offload count 
+offload finished  
+current memory is: 10038646272
+aps size: 124
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.221597
+offload count 
+offload finished  
+current memory is: 10038712320
+aps size: 152
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.603833
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10193527296
+aps size: 447
+evict idx 41
+release aps offloaded: 0 onGPU 1
+decision is  0.00395526
+offload count 
+offload finished  
+current memory is: 10193533440
+aps size: 86
+evict idx 40
+release aps offloaded: 0 onGPU 1
+decision is  0.0050051
+offload count 
+offload finished  
+current memory is: 10090775040
+aps size: 86
+evict idx 33
+release aps offloaded: 0 onGPU 1
+decision is  0.0222142
+offload count 
+offload finished  
+current memory is: 10039413248
+aps size: 90
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.260845
+offload count 
+offload finished  
+current memory is: 10039429632
+aps size: 106
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.518306
+offload count 
+offload finished  
+current memory is: 10039450112
+aps size: 107
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.153792
+offload count 
+offload finished  
+current memory is: 10039462400
+aps size: 113
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.531508
+offload count 
+offload finished  
+current memory is: 10013792768
+aps size: 126
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.215042
+offload count 
+offload finished  
+current memory is: 10013875200
+aps size: 140
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.594187
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10066781696
+aps size: 456
+evict idx 40
+release aps offloaded: 0 onGPU 1
+decision is  0.00522798
+offload count 
+offload finished  
+current memory is: 10066783744
+aps size: 85
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.00818305
+offload count 
+offload finished  
+current memory is: 10066787840
+aps size: 82
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.296056
+offload count 
+offload finished  
+current memory is: 10015419904
+aps size: 91
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.299358
+offload count 
+offload finished  
+current memory is: 10015440384
+aps size: 98
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.508256
+offload count 
+offload finished  
+current memory is: 10015456768
+aps size: 110
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.163091
+offload count 
+offload finished  
+current memory is: 10015477248
+aps size: 112
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.417638
+offload count 
+offload finished  
+current memory is: 10015489536
+aps size: 118
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.181693
+offload count 
+offload finished  
+current memory is: 10002718208
+aps size: 142
+evict idx 18
+release aps offloaded: 0 onGPU 1
+decision is  0.473632
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10143394304
+aps size: 457
+evict idx 40
+release aps offloaded: 0 onGPU 1
+decision is  0.0027147
+offload count 
+offload finished  
+current memory is: 10143396352
+aps size: 85
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.0479139
+offload count 
+offload finished  
+current memory is: 10143400448
+aps size: 82
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.236289
+offload count 
+offload finished  
+current memory is: 10092032512
+aps size: 91
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.241185
+offload count 
+offload finished  
+current memory is: 10092052992
+aps size: 98
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.411918
+offload count 
+offload finished  
+current memory is: 10014999040
+aps size: 109
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.136926
+offload count 
+offload finished  
+current memory is: 10092089856
+aps size: 113
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.544159
+offload count 
+offload finished  
+current memory is: 10092102144
+aps size: 118
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.201776
+offload count 
+offload finished  
+current memory is: 10015097344
+aps size: 134
+evict idx 18
+release aps offloaded: 0 onGPU 1
+decision is  0.628499
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10015530496
+aps size: 459
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.000862495
+offload count 
+offload finished  
+current memory is: 10015534592
+aps size: 77
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.00378714
+offload count 
+offload finished  
+current memory is: 10015540736
+aps size: 85
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.0386613
+offload count 
+offload finished  
+current memory is: 10066933248
+aps size: 90
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.0563841
+offload count 
+offload finished  
+current memory is: 10066953728
+aps size: 97
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.405321
+offload count 
+offload finished  
+current memory is: 10066966016
+aps size: 102
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.0465708
+offload count 
+offload finished  
+current memory is: 10066982400
+aps size: 115
+evict idx 18
+release aps offloaded: 0 onGPU 1
+decision is  0.381348
+offload count 
+offload finished  
+current memory is: 10067002880
+aps size: 117
+evict idx 23
+release aps offloaded: 0 onGPU 1
+decision is  0.169616
+offload count 
+offload finished  
+current memory is: 10041353728
+aps size: 125
+evict idx 17
+release aps offloaded: 0 onGPU 1
+decision is  0.485507
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10091356672
+aps size: 464
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.0010928
+offload count 
+offload finished  
+current memory is: 10091360768
+aps size: 77
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.00243178
+offload count 
+offload finished  
+current memory is: 10091366912
+aps size: 85
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.0255377
+offload count 
+offload finished  
+current memory is: 10039990784
+aps size: 89
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.0325349
+offload count 
+offload finished  
+current memory is: 10040007168
+aps size: 88
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.457559
+offload count 
+offload finished  
+current memory is: 10040031744
+aps size: 106
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.0294031
+offload count 
+offload finished  
+current memory is: 10040044032
+aps size: 107
+evict idx 18
+release aps offloaded: 0 onGPU 1
+decision is  0.545718
+offload count 
+offload finished  
+current memory is: 10040060416
+aps size: 120
+evict idx 23
+release aps offloaded: 0 onGPU 1
+decision is  0.207829
+offload count 
+offload finished  
+current memory is: 10014403072
+aps size: 123
+evict idx 17
+release aps offloaded: 0 onGPU 1
+decision is  0.611192
+offload count 
+offload finished  
+current memory is: 10014665728
+aps size: 151
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.0021061
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10018088448
+aps size: 444
+evict idx 39
+release aps offloaded: 0 onGPU 1
+decision is  0.00228544
+offload count 
+offload finished  
+current memory is: 10172233216
+aps size: 78
+evict idx 38
+release aps offloaded: 0 onGPU 1
+decision is  0.00429257
+offload count 
+offload finished  
+current memory is: 10172239360
+aps size: 85
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.0769691
+offload count 
+offload finished  
+current memory is: 10069480960
+aps size: 85
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.286273
+offload count 
+offload finished  
+current memory is: 10018119168
+aps size: 89
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.380286
+offload count 
+offload finished  
+current memory is: 10018135552
+aps size: 105
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.12707
+offload count 
+offload finished  
+current memory is: 10018156032
+aps size: 106
+evict idx 18
+release aps offloaded: 0 onGPU 1
+decision is  0.491204
+offload count 
+offload finished  
+current memory is: 10018168320
+aps size: 112
+evict idx 23
+release aps offloaded: 0 onGPU 1
+decision is  0.182023
+offload count 
+offload finished  
+current memory is: 10043895296
+aps size: 126
+evict idx 17
+release aps offloaded: 0 onGPU 1
+decision is  0.581025
+offload count 
+offload finished  
+current memory is: 10043961344
+aps size: 140
+evict idx 36
+release aps offloaded: 0 onGPU 1
+decision is  0.00302384
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10043777536
+aps size: 447
+evict idx 35
+release aps offloaded: 0 onGPU 1
+decision is  0.00133336
+offload count 
+offload finished  
+current memory is: 10043783680
+aps size: 80
+evict idx 34
+release aps offloaded: 0 onGPU 1
+decision is  0.0199365
+offload count 
+offload finished  
+current memory is: 10043785728
+aps size: 84
+evict idx 27
+release aps offloaded: 0 onGPU 1
+decision is  0.0971123
+offload count 
+offload finished  
+current memory is: 10043789824
+aps size: 81
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.2181
+offload count 
+offload finished  
+current memory is: 10095190528
+aps size: 91
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.376014
+offload count 
+offload finished  
+current memory is: 10018136576
+aps size: 104
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.117988
+offload count 
+offload finished  
+current memory is: 10095227392
+aps size: 107
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.386908
+offload count 
+offload finished  
+current memory is: 10095239680
+aps size: 112
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.148088
+offload count 
+offload finished  
+current memory is: 10043875840
+aps size: 121
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  0.430296
+offload count 
+offload finished  
+current memory is: 10018255360
+aps size: 140
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.0157542
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10117506560
+aps size: 447
+evict idx 35
+release aps offloaded: 0 onGPU 1
+decision is  0.00217094
+offload count 
+offload finished  
+current memory is: 10117512704
+aps size: 80
+evict idx 34
+release aps offloaded: 0 onGPU 1
+decision is  0.00361262
+offload count 
+offload finished  
+current memory is: 10117514752
+aps size: 84
+evict idx 27
+release aps offloaded: 0 onGPU 1
+decision is  0.100873
+offload count 
+offload finished  
+current memory is: 10117518848
+aps size: 81
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.241271
+offload count 
+offload finished  
+current memory is: 10066150912
+aps size: 90
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.493445
+offload count 
+offload finished  
+current memory is: 10066171392
+aps size: 97
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.153672
+offload count 
+offload finished  
+current memory is: 10066187776
+aps size: 109
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.52954
+offload count 
+offload finished  
+current memory is: 10066208256
+aps size: 111
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.213418
+offload count 
+offload finished  
+current memory is: 10066220544
+aps size: 117
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  0.602891
+offload count 
+offload finished  
+current memory is: 10040595968
+aps size: 134
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.00560129
+offload count 
+offload finished  
+current memory is: 10040621056
+aps size: 145
+evict idx 12
+release aps offloaded: 0 onGPU 1
+decision is  0.00688719
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10198116864
+aps size: 437
+evict idx 35
+release aps offloaded: 0 onGPU 1
+decision is  0.00138088
+offload count 
+offload finished  
+current memory is: 10198123008
+aps size: 80
+evict idx 34
+release aps offloaded: 0 onGPU 1
+decision is  0.00356867
+offload count 
+offload finished  
+current memory is: 10043984384
+aps size: 83
+evict idx 27
+release aps offloaded: 0 onGPU 1
+decision is  0.0883645
+offload count 
+offload finished  
+current memory is: 10198129152
+aps size: 82
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.260777
+offload count 
+offload finished  
+current memory is: 10044000768
+aps size: 89
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.346824
+offload count 
+offload finished  
+current memory is: 10044021248
+aps size: 96
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.11911
+offload count 
+offload finished  
+current memory is: 10044033536
+aps size: 101
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.472545
+offload count 
+offload finished  
+current memory is: 10044049920
+aps size: 114
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.167925
+offload count 
+offload finished  
+current memory is: 10044070400
+aps size: 116
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  0.532871
+offload count 
+offload finished  
+current memory is: 10018421248
+aps size: 124
+evict idx 32
+release aps offloaded: 0 onGPU 1
+decision is  0.013625
+offload count 
+offload finished  
+current memory is: 10018470912
+aps size: 138
+evict idx 12
+release aps offloaded: 0 onGPU 1
+decision is  0.0140627
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10071174656
+aps size: 446
+evict idx 34
+release aps offloaded: 0 onGPU 1
+decision is  0.00120564
+offload count 
+offload finished  
+current memory is: 10071176704
+aps size: 79
+evict idx 33
+release aps offloaded: 0 onGPU 1
+decision is  0.00291009
+offload count 
+offload finished  
+current memory is: 10071180800
+aps size: 76
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.0196099
+offload count 
+offload finished  
+current memory is: 10071186944
+aps size: 84
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.0232476
+offload count 
+offload finished  
+current memory is: 10019810816
+aps size: 88
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.423231
+offload count 
+offload finished  
+current memory is: 10019827200
+aps size: 87
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.0216098
+offload count 
+offload finished  
+current memory is: 10019851776
+aps size: 105
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  0.433585
+offload count 
+offload finished  
+current memory is: 10019864064
+aps size: 106
+evict idx 18
+release aps offloaded: 0 onGPU 1
+decision is  0.188049
+offload count 
+offload finished  
+current memory is: 10019880448
+aps size: 119
+evict idx 12
+release aps offloaded: 0 onGPU 1
+decision is  0.479806
+offload count 
+offload finished  
+current memory is: 10045619712
+aps size: 123
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.00549606
+offload count 
+offload finished  
+current memory is: 10007117312
+aps size: 136
+evict idx 11
+release aps offloaded: 0 onGPU 1
+decision is  0.0089026
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10148049408
+aps size: 447
+evict idx 34
+release aps offloaded: 0 onGPU 1
+decision is  0.00181145
+offload count 
+offload finished  
+current memory is: 10148379136
+aps size: 79
+evict idx 33
+release aps offloaded: 0 onGPU 1
+decision is  0.0226545
+offload count 
+offload finished  
+current memory is: 10148383232
+aps size: 76
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.0874775
+offload count 
+offload finished  
+current memory is: 10148389376
+aps size: 84
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  0.24516
+offload count 
+offload finished  
+current memory is: 10045630976
+aps size: 84
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.459571
+offload count 
+offload finished  
+current memory is: 10097029632
+aps size: 89
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.137971
+offload count 
+offload finished  
+current memory is: 10097054208
+aps size: 105
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  0.456502
+offload count 
+offload finished  
+current memory is: 10097066496
+aps size: 106
+evict idx 18
+release aps offloaded: 0 onGPU 1
+decision is  0.188324
+offload count 
+offload finished  
+current memory is: 10020012544
+aps size: 118
+evict idx 12
+release aps offloaded: 0 onGPU 1
+decision is  0.444984
+offload count 
+offload finished  
+current memory is: 10020045312
+aps size: 122
+evict idx 31
+release aps offloaded: 0 onGPU 1
+decision is  0.0166478
+offload count 
+offload finished  
+current memory is: 10020086272
+aps size: 128
+evict idx 11
+release aps offloaded: 0 onGPU 1
+decision is  0.0286492
+offload count 
+offload finished  
+current memory is: 10020111360
+aps size: 133
+evict idx 10
+release aps offloaded: 0 onGPU 1
+decision is  0.365762
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10021559808
+aps size: 437
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.00285337
+offload count 
+offload finished  
+current memory is: 10021565952
+aps size: 76
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.0147354
+offload count 
+offload finished  
+current memory is: 10021572096
+aps size: 79
+evict idx 22
+release aps offloaded: 0 onGPU 1
+decision is  0.0962496
+offload count 
+offload finished  
+current memory is: 10021574144
+aps size: 83
+evict idx 21
+release aps offloaded: 0 onGPU 1
+decision is  0.260496
+offload count 
+offload finished  
+current memory is: 10021578240
+aps size: 80
+evict idx 15
+release aps offloaded: 0 onGPU 1
+decision is  0.396917
+offload count 
+offload finished  
+current memory is: 10072978944
+aps size: 90
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.122778
+offload count 
+offload finished  
+current memory is: 10072995328
+aps size: 104
+evict idx 9
+release aps offloaded: 0 onGPU 1
+decision is  0.366642
+offload count 
+offload finished  
+current memory is: 10073015808
+aps size: 105
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.164959
+offload count 
+offload finished  
+current memory is: 10073028096
+aps size: 111
+evict idx 8
+release aps offloaded: 0 onGPU 1
+decision is  0.462816
+offload count 
+offload finished  
+current memory is: 10021664256
+aps size: 120
+evict idx 27
+release aps offloaded: 0 onGPU 1
+decision is  0.00389195
+offload count 
+offload finished  
+current memory is: 10047391232
+aps size: 121
+evict idx 7
+release aps offloaded: 0 onGPU 1
+decision is  0.0220718
+offload count 
+offload finished  
+current memory is: 10047440896
+aps size: 137
+evict idx 6
+release aps offloaded: 0 onGPU 1
+decision is  0.368948
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10097648128
+aps size: 437
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.00155722
+offload count 
+offload finished  
+current memory is: 10097654272
+aps size: 76
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.00293417
+offload count 
+offload finished  
+current memory is: 10097660416
+aps size: 79
+evict idx 22
+release aps offloaded: 0 onGPU 1
+decision is  0.0688579
+offload count 
+offload finished  
+current memory is: 10097662464
+aps size: 83
+evict idx 21
+release aps offloaded: 0 onGPU 1
+decision is  0.214844
+offload count 
+offload finished  
+current memory is: 10097666560
+aps size: 80
+evict idx 15
+release aps offloaded: 0 onGPU 1
+decision is  0.400794
+offload count 
+offload finished  
+current memory is: 10046298624
+aps size: 89
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.115323
+offload count 
+offload finished  
+current memory is: 10046319104
+aps size: 96
+evict idx 9
+release aps offloaded: 0 onGPU 1
+decision is  0.355794
+offload count 
+offload finished  
+current memory is: 10046335488
+aps size: 108
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.187235
+offload count 
+offload finished  
+current memory is: 10046355968
+aps size: 110
+evict idx 8
+release aps offloaded: 0 onGPU 1
+decision is  0.553746
+offload count 
+offload finished  
+current memory is: 10046368256
+aps size: 116
+evict idx 27
+release aps offloaded: 0 onGPU 1
+decision is  0.00669044
+offload count 
+offload finished  
+current memory is: 10020702720
+aps size: 121
+evict idx 7
+release aps offloaded: 0 onGPU 1
+decision is  0.0246691
+offload count 
+offload finished  
+current memory is: 10020743680
+aps size: 128
+evict idx 6
+release aps offloaded: 0 onGPU 1
+decision is  0.342129
+offload count 
+offload finished  
+current memory is: 10019851264
+aps size: 143
+evict idx 3
+release aps offloaded: 0 onGPU 1
+decision is  0.146659
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10175702528
+aps size: 427
+evict idx 30
+release aps offloaded: 0 onGPU 1
+decision is  0.0011379
+offload count 
+offload finished  
+current memory is: 10175708672
+aps size: 76
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.00484876
+offload count 
+offload finished  
+current memory is: 10175714816
+aps size: 79
+evict idx 22
+release aps offloaded: 0 onGPU 1
+decision is  0.038883
+offload count 
+offload finished  
+current memory is: 10021576192
+aps size: 82
+evict idx 21
+release aps offloaded: 0 onGPU 1
+decision is  0.0562756
+offload count 
+offload finished  
+current memory is: 10175720960
+aps size: 81
+evict idx 15
+release aps offloaded: 0 onGPU 1
+decision is  0.432665
+offload count 
+offload finished  
+current memory is: 10021592576
+aps size: 88
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.0463402
+offload count 
+offload finished  
+current memory is: 10021613056
+aps size: 95
+evict idx 9
+release aps offloaded: 0 onGPU 1
+decision is  0.475424
+offload count 
+offload finished  
+current memory is: 10021625344
+aps size: 100
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.166876
+offload count 
+offload finished  
+current memory is: 10021641728
+aps size: 113
+evict idx 8
+release aps offloaded: 0 onGPU 1
+decision is  0.462563
+offload count 
+offload finished  
+current memory is: 10021662208
+aps size: 115
+evict idx 27
+release aps offloaded: 0 onGPU 1
+decision is  0.00236976
+offload count 
+offload finished  
+current memory is: 10047376896
+aps size: 120
+evict idx 7
+release aps offloaded: 0 onGPU 1
+decision is  0.0147956
+offload count 
+offload finished  
+current memory is: 10047417856
+aps size: 127
+evict idx 6
+release aps offloaded: 0 onGPU 1
+decision is  0.303957
+offload count 
+offload finished  
+current memory is: 10047442944
+aps size: 132
+evict idx 3
+release aps offloaded: 0 onGPU 1
+decision is  0.131485
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10046138880
+aps size: 436
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.00210979
+offload count 
+offload finished  
+current memory is: 10046145024
+aps size: 75
+evict idx 28
+release aps offloaded: 0 onGPU 1
+decision is  0.0215601
+offload count 
+offload finished  
+current memory is: 10046147072
+aps size: 78
+evict idx 21
+release aps offloaded: 0 onGPU 1
+decision is  0.0816794
+offload count 
+offload finished  
+current memory is: 10046151168
+aps size: 75
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.246241
+offload count 
+offload finished  
+current memory is: 10046157312
+aps size: 83
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.361625
+offload count 
+offload finished  
+current memory is: 10097549824
+aps size: 88
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.12461
+offload count 
+offload finished  
+current memory is: 10097570304
+aps size: 95
+evict idx 8
+release aps offloaded: 0 onGPU 1
+decision is  0.481089
+offload count 
+offload finished  
+current memory is: 10097582592
+aps size: 100
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  0.187552
+offload count 
+offload finished  
+current memory is: 10020528640
+aps size: 112
+evict idx 7
+release aps offloaded: 0 onGPU 1
+decision is  0.543289
+offload count 
+offload finished  
+current memory is: 10097619456
+aps size: 116
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.0134062
+offload count 
+offload finished  
+current memory is: 10046243328
+aps size: 115
+evict idx 6
+release aps offloaded: 0 onGPU 1
+decision is  0.019583
+offload count 
+offload finished  
+current memory is: 10020590080
+aps size: 119
+evict idx 5
+release aps offloaded: 0 onGPU 1
+decision is  0.340645
+offload count 
+offload finished  
+current memory is: 10020622848
+aps size: 135
+evict idx 2
+release aps offloaded: 0 onGPU 1
+decision is  0.000236948
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10126159360
+aps size: 436
+evict idx 62
+release aps offloaded: 0 onGPU 1
+decision is  8.97524e-09
+offload count 
+offload finished  
+current memory is: 10115673600
+aps size: 65
+evict idx 59
+release aps offloaded: 0 onGPU 1
+decision is  8.97525e-09
+offload count 
+offload finished  
+current memory is: 10106236416
+aps size: 64
+evict idx 55
+release aps offloaded: 0 onGPU 1
+decision is  8.97525e-09
+offload count 
+offload finished  
+current memory is: 10096799232
+aps size: 63
+evict idx 57
+release aps offloaded: 0 onGPU 1
+decision is  7.978e-09
+offload count 
+offload finished  
+current memory is: 10087362048
+aps size: 62
+evict idx 59
+release aps offloaded: 0 onGPU 1
+decision is  7.79101e-09
+offload count 
+offload finished  
+current memory is: 10079170048
+aps size: 61
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.000772555
+offload count 
+offload finished  
+current memory is: 10079176192
+aps size: 70
+evict idx 28
+release aps offloaded: 0 onGPU 1
+decision is  0.00274742
+offload count 
+offload finished  
+current memory is: 10079178240
+aps size: 73
+evict idx 21
+release aps offloaded: 0 onGPU 1
+decision is  0.0338201
+offload count 
+offload finished  
+current memory is: 10079182336
+aps size: 70
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  0.0432633
+offload count 
+offload finished  
+current memory is: 10079188480
+aps size: 78
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  0.17547
+offload count 
+offload finished  
+current memory is: 10027812352
+aps size: 82
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  0.032797
+offload count 
+offload finished  
+current memory is: 10027828736
+aps size: 81
+evict idx 8
+release aps offloaded: 0 onGPU 1
+decision is  0.160918
+offload count 
+offload finished  
+current memory is: 10027853312
+aps size: 99
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  0.0657262
+offload count 
+offload finished  
+current memory is: 10027865600
+aps size: 100
+evict idx 7
+release aps offloaded: 0 onGPU 1
+decision is  0.182366
+offload count 
+offload finished  
+current memory is: 10027881984
+aps size: 113
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.00592709
+offload count 
+offload finished  
+current memory is: 10027890176
+aps size: 106
+evict idx 6
+release aps offloaded: 0 onGPU 1
+decision is  0.0132199
+offload count 
+offload finished  
+current memory is: 10002224640
+aps size: 115
+evict idx 5
+release aps offloaded: 0 onGPU 1
+decision is  0.147556
+offload count 
+offload finished  
+current memory is: 10002265600
+aps size: 122
+evict idx 2
+release aps offloaded: 0 onGPU 1
+decision is  0.000598899
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+current memory is: 10010482688
+aps size: 138
+evict idx 68
+release aps offloaded: 0 onGPU 1
+decision is  5.44568e-05
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10201461248
+aps size: 426
+evict idx 29
+release aps offloaded: 0 onGPU 1
+decision is  0.000324645
+offload count 
+offload finished  
+current memory is: 10201467392
+aps size: 75
+evict idx 26
+release aps offloaded: 0 onGPU 1
+decision is  0.000768199
+offload count 
+offload finished  
+current memory is: 10201467392
+aps size: 70
+evict idx 28
+release aps offloaded: 0 onGPU 1
+decision is  0.000828374
+offload count 
+offload finished  
+current memory is: 10201473536
+aps size: 78
+evict idx 21
+release aps offloaded: 0 onGPU 1
+decision is  5.49457e-05
+offload count 
+offload finished  
+current memory is: 10047334912
+aps size: 81
+evict idx 20
+release aps offloaded: 0 onGPU 1
+decision is  5.19025e-05
+offload count 
+offload finished  
+current memory is: 10201479680
+aps size: 80
+evict idx 6
+release aps offloaded: 0 onGPU 1
+decision is  4.74047e-05
+offload count 
+offload finished  
+current memory is: 10098721280
+aps size: 82
+evict idx 5
+release aps offloaded: 0 onGPU 1
+decision is  0.000318708
+offload count 
+offload finished  
+current memory is: 10047351296
+aps size: 84
+evict idx 2
+release aps offloaded: 0 onGPU 1
+decision is  2.38173e-05
+offload count 
+offload finished  
+current memory is: 10047359488
+aps size: 83
+evict idx 14
+release aps offloaded: 0 onGPU 1
+decision is  9.21134e-05
+offload count 
+offload finished  
+current memory is: 10047375872
+aps size: 101
+evict idx 19
+release aps offloaded: 0 onGPU 1
+decision is  3.9124e-05
+offload count 
+offload finished  
+current memory is: 10047396352
+aps size: 102
+evict idx 8
+release aps offloaded: 0 onGPU 1
+decision is  0.000106577
+offload count 
+offload finished  
+current memory is: 10047408640
+aps size: 108
+evict idx 13
+release aps offloaded: 0 onGPU 1
+decision is  7.49821e-05
+offload count 
+offload finished  
+current memory is: 10021739008
+aps size: 121
+evict idx 0
+release aps offloaded: 0 onGPU 1
+decision is  2.15715e-05
+offload count 
+offload finished  
+current memory is: 10021771776
+aps size: 116
+evict idx 25
+release aps offloaded: 0 onGPU 1
+decision is  5.72878e-05
+offload count 
+offload finished  
+current memory is: 10021796352
+aps size: 125
+evict idx 24
+release aps offloaded: 0 onGPU 1
+decision is  0.000138768
+offload count 
+offload finished  
+current memory is: 10021821440
+aps size: 128
+evict idx 23
+release aps offloaded: 0 onGPU 1
+decision is  6.60968e-05
+offload count 
+offload finished  
+current memory is: 10021821440
+aps size: 135
+evict idx 22
+release aps offloaded: 0 onGPU 1
+decision is  7.03301e-05
+offload count 
+offload finished  
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+before aaaa
+111 
+Reload finished 
+current memory is: 10073794048
+aps size: 425
+evict idx 28
+release aps offloaded: 0 onGPU 1
+decision is  0.000122228
+offload count 
+offload finished  
+current memory is: 10073798144
+aps size: 66
+evict idx 27
+release aps offloaded: 0 onGPU 1
+decision is  0.000202452
+offload count 
+offload finished  
+/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/cuda/memory.py:234: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  FutureWarning)
+Epoch: [0][    1/10010]	Time 17.506 (17.506)	Data  8.679 ( 8.679)	Loss 7.0690e+00 (7.0690e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.00)
+memory: 12313.39 (MB)
+Epoch: [0][    2/10010]	Time  1.579 ( 9.542)	Data  0.003 ( 4.341)	Loss 7.0177e+00 (7.0434e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.00)
+memory: 9610.23 (MB)
+Epoch: [0][    3/10010]	Time  1.905 ( 6.996)	Data  0.005 ( 2.895)	Loss 7.0584e+00 (7.0484e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.00)
+memory: 9621.33 (MB)
+Epoch: [0][    4/10010]	Time  2.194 ( 5.796)	Data  0.005 ( 2.173)	Loss 7.1538e+00 (7.0747e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.00)
+memory: 9593.59 (MB)
+Epoch: [0][    5/10010]	Time  3.043 ( 5.245)	Data  0.011 ( 1.740)	Loss 7.0498e+00 (7.0698e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.78 (  0.16)
+memory: 9568.98 (MB)
+Epoch: [0][    6/10010]	Time  3.422 ( 4.941)	Data  0.009 ( 1.452)	Loss 7.0718e+00 (7.0701e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.13)
+memory: 9645.05 (MB)
+Epoch: [0][    7/10010]	Time  3.086 ( 4.676)	Data  0.006 ( 1.245)	Loss 7.0794e+00 (7.0714e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.11)
+memory: 9619.76 (MB)
+Epoch: [0][    8/10010]	Time  2.765 ( 4.437)	Data  0.005 ( 1.090)	Loss 7.0359e+00 (7.0670e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.10)
+memory: 9594.34 (MB)
+Epoch: [0][    9/10010]	Time  2.863 ( 4.263)	Data  0.003 ( 0.969)	Loss 7.1369e+00 (7.0747e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.78 (  0.17)
+memory: 9572.29 (MB)
+Epoch: [0][   10/10010]	Time  2.834 ( 4.120)	Data  0.005 ( 0.873)	Loss 7.1350e+00 (7.0808e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.78 (  0.23)
+memory: 9645.54 (MB)
+Epoch: [0][   11/10010]	Time  3.294 ( 4.045)	Data  0.005 ( 0.794)	Loss 7.0635e+00 (7.0792e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.78 (  0.28)
+memory: 9620.36 (MB)
+Epoch: [0][   12/10010]	Time  3.427 ( 3.993)	Data  0.016 ( 0.729)	Loss 7.1033e+00 (7.0812e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.78 (  0.33)
+memory: 9598.83 (MB)
+Epoch: [0][   13/10010]	Time  3.162 ( 3.929)	Data  0.005 ( 0.673)	Loss 7.0195e+00 (7.0765e+00)	Acc@1   0.78 (  0.06)	Acc@5   0.78 (  0.36)
+memory: 9613.13 (MB)
+Epoch: [0][   14/10010]	Time  3.057 ( 3.867)	Data  0.005 ( 0.626)	Loss 7.1172e+00 (7.0794e+00)	Acc@1   0.00 (  0.06)	Acc@5   0.78 (  0.39)
+memory: 9645.22 (MB)
+Epoch: [0][   15/10010]	Time  3.425 ( 3.837)	Data  0.006 ( 0.584)	Loss 7.0585e+00 (7.0780e+00)	Acc@1   0.00 (  0.05)	Acc@5   0.78 (  0.42)
+memory: 9622.04 (MB)
+Epoch: [0][   16/10010]	Time  5.179 ( 3.921)	Data  0.005 ( 0.548)	Loss 7.1160e+00 (7.0804e+00)	Acc@1   0.00 (  0.05)	Acc@5   0.78 (  0.44)
+memory: 9598.12 (MB)
+Epoch: [0][   17/10010]	Time  4.533 ( 3.957)	Data  0.002 ( 0.516)	Loss 6.9903e+00 (7.0751e+00)	Acc@1   1.56 (  0.14)	Acc@5   1.56 (  0.51)
+memory: 9593.24 (MB)
+Epoch: [0][   18/10010]	Time  4.355 ( 3.979)	Data  0.005 ( 0.488)	Loss 7.0699e+00 (7.0748e+00)	Acc@1   0.00 (  0.13)	Acc@5   0.00 (  0.48)
+memory: 9648.58 (MB)
+Epoch: [0][   19/10010]	Time  4.360 ( 3.999)	Data  0.008 ( 0.462)	Loss 7.0873e+00 (7.0754e+00)	Acc@1   0.00 (  0.12)	Acc@5   1.56 (  0.53)
+memory: 9641.36 (MB)
+Epoch: [0][   20/10010]	Time  4.353 ( 4.017)	Data  0.005 ( 0.440)	Loss 7.0843e+00 (7.0759e+00)	Acc@1   0.78 (  0.16)	Acc@5   0.78 (  0.55)
+memory: 9716.49 (MB)
+Epoch: [0][   21/10010]	Time  4.641 ( 4.047)	Data  0.010 ( 0.419)	Loss 7.0832e+00 (7.0762e+00)	Acc@1   0.00 (  0.15)	Acc@5   0.00 (  0.52)
+memory: 9597.24 (MB)
+Epoch: [0][   22/10010]	Time  5.159 ( 4.097)	Data  0.006 ( 0.400)	Loss 7.1124e+00 (7.0779e+00)	Acc@1   0.78 (  0.18)	Acc@5   0.78 (  0.53)
+memory: 9668.74 (MB)
+Epoch: [0][   23/10010]	Time  4.725 ( 4.125)	Data  0.004 ( 0.383)	Loss 7.0941e+00 (7.0786e+00)	Acc@1   0.00 (  0.17)	Acc@5   0.00 (  0.51)
+memory: 9624.28 (MB)
+Epoch: [0][   24/10010]	Time  4.960 ( 4.160)	Data  0.006 ( 0.367)	Loss 7.0197e+00 (7.0761e+00)	Acc@1   0.78 (  0.20)	Acc@5   0.78 (  0.52)
+memory: 9623.68 (MB)
+Epoch: [0][   25/10010]	Time  4.893 ( 4.189)	Data  0.006 ( 0.353)	Loss 6.9417e+00 (7.0708e+00)	Acc@1   0.00 (  0.19)	Acc@5   0.00 (  0.50)
+memory: 9695.93 (MB)
+Epoch: [0][   26/10010]	Time  5.281 ( 4.231)	Data  0.006 ( 0.340)	Loss 7.0691e+00 (7.0707e+00)	Acc@1   0.00 (  0.18)	Acc@5   0.00 (  0.48)
+memory: 9653.37 (MB)
+Epoch: [0][   27/10010]	Time  5.386 ( 4.274)	Data  0.002 ( 0.327)	Loss 7.1394e+00 (7.0732e+00)	Acc@1   0.00 (  0.17)	Acc@5   0.00 (  0.46)
+memory: 9647.00 (MB)
+Epoch: [0][   28/10010]	Time  5.848 ( 4.330)	Data  0.004 ( 0.316)	Loss 7.1311e+00 (7.0753e+00)	Acc@1   0.00 (  0.17)	Acc@5   0.78 (  0.47)
+memory: 9721.31 (MB)
+Epoch: [0][   29/10010]	Time  7.449 ( 4.437)	Data  0.009 ( 0.305)	Loss 7.1680e+00 (7.0785e+00)	Acc@1   0.00 (  0.16)	Acc@5   0.00 (  0.46)
+memory: 9622.83 (MB)
+Epoch: [0][   30/10010]	Time  7.895 ( 4.553)	Data  0.023 ( 0.296)	Loss 7.0902e+00 (7.0789e+00)	Acc@1   0.00 (  0.16)	Acc@5   0.78 (  0.47)
+memory: 9673.50 (MB)
+Epoch: [0][   31/10010]	Time  8.895 ( 4.693)	Data  0.026 ( 0.287)	Loss 7.0241e+00 (7.0771e+00)	Acc@1   0.00 (  0.15)	Acc@5   0.00 (  0.45)
+memory: 9631.12 (MB)
+Epoch: [0][   32/10010]	Time 11.587 ( 4.908)	Data  0.103 ( 0.281)	Loss 6.9996e+00 (7.0747e+00)	Acc@1   0.00 (  0.15)	Acc@5   0.00 (  0.44)
+memory: 9623.88 (MB)
+Epoch: [0][   33/10010]	Time 12.395 ( 5.135)	Data  0.070 ( 0.275)	Loss 6.9949e+00 (7.0723e+00)	Acc@1   0.00 (  0.14)	Acc@5   0.78 (  0.45)
+memory: 9701.00 (MB)
+Epoch: [0][   34/10010]	Time 10.788 ( 5.301)	Data  0.028 ( 0.267)	Loss 7.1414e+00 (7.0743e+00)	Acc@1   0.00 (  0.14)	Acc@5   0.00 (  0.44)
+memory: 9658.04 (MB)
+Epoch: [0][   35/10010]	Time 11.485 ( 5.478)	Data  0.022 ( 0.260)	Loss 7.0644e+00 (7.0740e+00)	Acc@1   0.00 (  0.13)	Acc@5   0.00 (  0.42)
+memory: 9648.82 (MB)
+Epoch: [0][   36/10010]	Time 10.709 ( 5.623)	Data  0.022 ( 0.254)	Loss 7.0581e+00 (7.0736e+00)	Acc@1   0.00 (  0.13)	Acc@5   0.78 (  0.43)
+memory: 9725.69 (MB)
+Epoch: [0][   37/10010]	Time 11.212 ( 5.774)	Data  0.080 ( 0.249)	Loss 7.0128e+00 (7.0719e+00)	Acc@1   0.00 (  0.13)	Acc@5   0.00 (  0.42)
+memory: 9627.03 (MB)
+Epoch: [0][   38/10010]	Time 11.281 ( 5.919)	Data  0.028 ( 0.243)	Loss 7.0748e+00 (7.0720e+00)	Acc@1   0.00 (  0.12)	Acc@5   0.78 (  0.43)
+memory: 9678.26 (MB)
+Epoch: [0][   39/10010]	Time 12.824 ( 6.096)	Data  0.023 ( 0.238)	Loss 7.0727e+00 (7.0720e+00)	Acc@1   0.00 (  0.12)	Acc@5   0.00 (  0.42)
+memory: 9636.85 (MB)
+Epoch: [0][   40/10010]	Time 12.935 ( 6.267)	Data  0.025 ( 0.232)	Loss 7.0759e+00 (7.0721e+00)	Acc@1   0.00 (  0.12)	Acc@5   0.00 (  0.41)
+memory: 9629.89 (MB)
+Epoch: [0][   41/10010]	Time 13.258 ( 6.438)	Data  0.023 ( 0.227)	Loss 7.1382e+00 (7.0737e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.00 (  0.40)
+memory: 9704.32 (MB)
+Epoch: [0][   42/10010]	Time 91.166 ( 8.455)	Data  0.028 ( 0.222)	Loss 6.9986e+00 (7.0720e+00)	Acc@1   0.00 (  0.11)	Acc@5   1.56 (  0.43)
+memory: 9660.32 (MB)
+Epoch: [0][   43/10010]	Time 361.829 (16.673)	Data  0.060 ( 0.219)	Loss 7.0852e+00 (7.0723e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.00 (  0.42)
+memory: 9657.06 (MB)
+Epoch: [0][   44/10010]	Time 226.624 (21.445)	Data  1.733 ( 0.253)	Loss 7.0577e+00 (7.0719e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.00 (  0.41)
+memory: 9728.89 (MB)
+Traceback (most recent call last):
+  File "main.py", line 507, in <module>
+    main()
+  File "main.py", line 123, in main
+    main_worker(args.gpu, ngpus_per_node, args)
+  File "main.py", line 264, in main_worker
+    train(train_loader, model, criterion, optimizer, epoch, args)
+  File "main.py", line 318, in train
+    output = model(images)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 159, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torchvision-0.8.0a0+02c2537-py3.6-linux-x86_64.egg/torchvision/models/resnet.py", line 220, in forward
+    return self._forward_impl(x)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torchvision-0.8.0a0+02c2537-py3.6-linux-x86_64.egg/torchvision/models/resnet.py", line 209, in _forward_impl
+    x = self.layer2(x)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torchvision-0.8.0a0+02c2537-py3.6-linux-x86_64.egg/torchvision/models/resnet.py", line 118, in forward
+    out += identity
+  File "/home/laizhiquan/dat01/txd/anaconda3/envs/delta/lib/python3.6/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 463) is killed by signal: Killed. 
+All done. Here are some perf stats fresh off the preses.
+srun: error: g0022: task 0: Exited with exit code 1
