@@ -3,7 +3,7 @@ import sys
 import logging
 import argparse
 # from tensorboardX import SummaryWriter
-
+import torch.distributed as dist
 SUMMARY_WRITER_DIR_NAME = 'runs'
 
 
@@ -221,6 +221,20 @@ def get_argument_parser():
         default=None,
         help="The config json file corresponding to the non-DeepSpeed pre-trained BERT model."
     )
+    parser.add_argument('--world-size', default=-1, type=int,
+                    help='number of nodes for distributed training')
+    parser.add_argument('--rank', default=-1, type=int,
+                    help='node rank for distributed training')
+    parser.add_argument('--dist-url', default='tcp://224.66.41.62:23456', type=str,
+                        help='url used to set up distributed training')
+    parser.add_argument('--dist-backend', default='nccl', type=str,
+                        help='distributed backend')
+    parser.add_argument('--multiprocessing-distributed', action='store_true',
+                    help='Use multi-processing distributed training to launch '
+                         'N processes per node, which has N GPUs. This is the '
+                         'fastest way to use PyTorch for either single node or '
+                         'multi node data parallel training')
+
 
     parser.add_argument(
         "--delta",
@@ -253,3 +267,9 @@ def check_early_exit_warning(args):
     if args.max_steps_per_epoch < sys.maxsize:
         logging.warning('Early epoch exit is set after {} global steps'.format(
             args.max_steps_per_epoch))
+
+def reduce_tensor(tensor, n):
+    rt = tensor.clone()
+    dist.all_reduce(rt, op=dist.ReduceOp.SUM)
+    rt /= n
+    return rt

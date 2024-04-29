@@ -27,10 +27,11 @@ import math
 import os
 import random
 import pickle
+import time
 from tqdm import tqdm, trange
 from utils import get_argument_parser, \
-    is_time_to_exit, check_early_exit_warning
-
+    is_time_to_exit, check_early_exit_warning, reduce_tensor
+import torch.distributed as dist
 import numpy as np
 import torch
 from torch.utils.data import TensorDataset, DataLoader, RandomSampler, SequentialSampler
@@ -766,21 +767,41 @@ class GradientClipper:
 def main():
     parser = get_argument_parser()
     args = parser.parse_args()
-    if args.delta:
-        torch.set_memory_budget(args.budget)
+    # if args.delta:
+    #     torch.set_memory_budget(args.budget)
 
     check_early_exit_warning(args)
-
-    if args.local_rank == -1 or args.no_cuda:
+    
+    args.distributed = args.world_size > 1
+    
+    if args.distributed:
+        if args.dist_url == "env://" and args.rank == -1:
+            args.rank = int(os.environ["RANK"])
+        if args.multiprocessing_distributed:
+            # For multiprocessing distributed training, rank needs to be the
+            # global rank among all the processes
+            args.rank = args.rank * ngpus_per_node + gpu
+        dist.init_process_group(backend=args.dist_backend, 
+                                world_size=args.world_size, rank=args.rank)
+        torch.cuda.set_device(args.local_rank)
+        device = torch.device("cuda", args.local_rank)
+        n_gpu = torch.cuda.device_count()
+        print(args.local_rank, device, n_gpu)
+    else:
         device = torch.device("cuda" if torch.cuda.is_available()
                               and not args.no_cuda else "cpu")
         n_gpu = torch.cuda.device_count()
-    else:
-        torch.cuda.set_device(args.local_rank)
-        device = torch.device("cuda", args.local_rank)
-        n_gpu = 1
-        # Initializes the distributed backend which will take care of sychronizing nodes/GPUs
-        torch.distributed.init_process_group(backend='nccl')
+
+    # if args.local_rank == -1 or args.no_cuda:
+    #     device = torch.device("cuda" if torch.cuda.is_available()
+    #                           and not args.no_cuda else "cpu")
+    #     n_gpu = torch.cuda.device_count()
+    # else:
+    #     torch.cuda.set_device(args.local_rank)
+    #     device = torch.device("cuda", args.local_rank)
+    #     n_gpu = 1
+    #     # Initializes the distributed backend which will take care of sychronizing nodes/GPUs
+    #     torch.distributed.init_process_group(backend='nccl')
     logger.info(
         "device: {} n_gpu: {}, distributed training: {}, 16-bits training: {}".
         format(device, n_gpu, bool(args.local_rank != -1), args.fp16))
@@ -861,9 +882,7 @@ def main():
         bert_config.vocab_size += 8 - (bert_config.vocab_size % 8)
     model = BertForQuestionAnswering(bert_config, args)
     print("VOCAB SIZE:", bert_config.vocab_size)
-    if args.delta:
-        torch.set_memory_budget(args.budget)
-        model._apply(lambda v: v.detach().checkpoint())
+    
     if args.model_file is not "0":
         logger.info(f"Loading Pretrained Bert Encoder from: {args.model_file}")
 
@@ -876,8 +895,15 @@ def main():
         #model.bert.load_state_dict(bert_state_dict, strict=False)
         logger.info(f"Pretrained Bert Encoder Loaded from: {args.model_file}")
 
-    model.to(device)
-
+    # model.to(device)
+    if args.distributed:
+        model.cuda()
+        # model.to(device)
+        model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[device], output_device=args.local_rank, find_unused_parameters=True)
+        
+    if args.delta:
+        torch.set_memory_budget(args.budget)
+        model._apply(lambda v: v.detach().checkpoint())
     # Prepare optimizer
     param_optimizer = list(model.named_parameters())
 
@@ -928,17 +954,17 @@ def main():
                              warmup=args.warmup_proportion,
                              t_total=t_total)
 
-    if args.local_rank != -1:
-        try:
-            from apex.parallel import DistributedDataParallel as DDP
-        except ImportError:
-            raise ImportError(
-                "Please install apex from https://www.github.com/nvidia/apex to use distributed and fp16 training."
-            )
+#     if args.local_rank != -1:
+#         try:
+#             from apex.parallel import DistributedDataParallel as DDP
+#         except ImportError:
+#             raise ImportError(
+#                 "Please install apex from https://www.github.com/nvidia/apex to use distributed and fp16 training."
+#             )
 
-        model = DDP(model)
-    elif n_gpu > 1:
-        model = torch.nn.DataParallel(model)
+#         model = DDP(model)
+#     elif n_gpu > 1:
+#         model = torch.nn.DataParallel(model)
 
     global_step = 0
     if args.do_train:
@@ -998,12 +1024,14 @@ def main():
         for _ in trange(int(args.num_train_epochs), desc="Epoch"):
             num_epoch += 1
             epoch_step = 0
+            tputs = []
             for step, batch in enumerate(
                     tqdm(train_dataloader, desc="Iteration", smoothing=0)):
                 if n_gpu == 1:
                     batch = tuple(
                         t.to(device)
                         for t in batch)  # multi-gpu does scattering it-self
+                start_time = time.time()
                 input_ids, input_mask, segment_ids, start_positions, end_positions = batch
                 if args.delta:
                     input_ids = input_ids.checkpoint()
@@ -1023,17 +1051,23 @@ def main():
                 ema_loss = args.loss_plot_alpha * ema_loss + (
                     1 - args.loss_plot_alpha) * loss.item()
 
-                if args.local_rank != -1:
-                    model.disable_allreduce()
-                    if (step + 1) % args.gradient_accumulation_steps == 0:
-                        model.enable_allreduce()
+                # if args.local_rank != -1:
+                #     model.disable_allreduce()
+                #     if (step + 1) % args.gradient_accumulation_steps == 0:
+                #         model.enable_allreduce()
 
                 if args.fp16:
                     with amp.scale_loss(loss, optimizer) as scaled_loss:
                         scaled_loss.backward()
                 else:
                     loss.backward()
-
+                if args.distributed:
+                    reduced_loss = reduce_tensor(loss.data, args.world_size)
+                
+                current_time = time.time() - start_time
+                throughput = args.train_batch_size / current_time
+                tputs.append(throughput)
+                print("throughput is: %.2f (batch_size/s)" % np.mean(tputs))
                 if args.delta:
                     torch.clear_checkpointpool()
                     input_ids = input_ids.decheckpoint()
@@ -1046,11 +1080,12 @@ def main():
                 current_memory = torch.cuda.max_memory_allocated() / (1024*1024)
                 torch.cuda.reset_max_memory_allocated()
                 print("max memory alloacated: %.2f (MB)" % current_memory)
+                torch.cuda.empty_cache()
                 # gradient clipping
                 # gradClipper.step(amp.master_params(optimizer))
 
                 sample_count += (args.train_batch_size)
-
+                lr_this_step = None
                 if (step + 1) % args.gradient_accumulation_steps == 0:
                     # modify learning rate with special warm up BERT uses
                     lr_this_step = args.learning_rate * warmup_linear(
