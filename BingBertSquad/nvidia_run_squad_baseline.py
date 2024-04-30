@@ -903,7 +903,7 @@ def main():
         
     if args.delta:
         torch.set_memory_budget(args.budget)
-        model._apply(lambda v: v.detach().checkpoint())
+        
     # Prepare optimizer
     param_optimizer = list(model.named_parameters())
 
@@ -1018,6 +1018,8 @@ def main():
         # gradClipper = GradientClipper(max_grad_norm=1.0)
 
         model.train()
+        if args.delta:
+            model._apply(lambda v: v.detach().checkpoint())
         ema_loss = 0.
         sample_count = 0
         num_epoch = 0
@@ -1033,6 +1035,12 @@ def main():
                         for t in batch)  # multi-gpu does scattering it-self
                 start_time = time.time()
                 input_ids, input_mask, segment_ids, start_positions, end_positions = batch
+                input_ids = input_ids.to(device).contiguous()
+                input_mask = input_mask.to(device).contiguous()
+                segment_ids = segment_ids.to(device).contiguous()
+                start_positions = start_positions.to(device).contiguous()
+                end_positions = end_positions.to(device).contiguous()
+
                 if args.delta:
                     input_ids = input_ids.checkpoint()
                     input_mask = input_mask.checkpoint()
@@ -1050,7 +1058,7 @@ def main():
 
                 ema_loss = args.loss_plot_alpha * ema_loss + (
                     1 - args.loss_plot_alpha) * loss.item()
-
+                
                 # if args.local_rank != -1:
                 #     model.disable_allreduce()
                 #     if (step + 1) % args.gradient_accumulation_steps == 0:
@@ -1061,8 +1069,8 @@ def main():
                         scaled_loss.backward()
                 else:
                     loss.backward()
-                if args.distributed:
-                    reduced_loss = reduce_tensor(loss.data, args.world_size)
+                # if args.distributed:
+                #     reduced_loss = reduce_tensor(loss.data, args.world_size)
                 
                 current_time = time.time() - start_time
                 throughput = args.train_batch_size / current_time

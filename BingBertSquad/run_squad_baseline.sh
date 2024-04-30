@@ -5,12 +5,12 @@
 #3: BertSquad Data Directory Address
 #4: Output Directory Address
 
-NGPU_PER_NODE=1
+NGPU_PER_NODE=4
 SQUAD_DIR=/cpfs01/shared/pjlab-lingjun-landmarks/tangyu/SQuAD-explorer/dataset
 OUTPUT_DIR=./output
 NUM_NODES=1
 NGPU=$((NGPU_PER_NODE*NUM_NODES))
-EFFECTIVE_BATCH_SIZE=12
+EFFECTIVE_BATCH_SIZE=512
 MAX_GPU_BATCH_SIZE=12
 PER_GPU_BATCH_SIZE=$((EFFECTIVE_BATCH_SIZE/NGPU))
 if [[ $PER_GPU_BATCH_SIZE -lt $MAX_GPU_BATCH_SIZE ]]; then
@@ -23,7 +23,7 @@ LR=3e-5
 MASTER_PORT=$((NGPU+12345))
 
 JOB_NAME="baseline_${NGPU}GPUs_${EFFECTIVE_BATCH_SIZE}batch_size"
-run_cmd="python -m torch.distributed.launch --nproc_per_node=4 nvidia_run_squad_baseline.py \
+run_cmd="TORCH_SHOW_CPP_STACKTRACES=1 python -m torch.distributed.launch --nproc_per_node=4 nvidia_run_squad_baseline.py \
        --bert_model bert-large-uncased \
        --do_train \
        --do_lower_case \
@@ -37,6 +37,8 @@ run_cmd="python -m torch.distributed.launch --nproc_per_node=4 nvidia_run_squad_
        --output_dir $OUTPUT_DIR \
        --gradient_accumulation_steps ${GRAD_ACCUM_STEPS} \
        --world-size 4 \
+       --delta       \
+       --budget 20000000000  \
        "
 echo ${run_cmd}
 eval ${run_cmd}
